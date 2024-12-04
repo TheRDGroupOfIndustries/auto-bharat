@@ -122,8 +122,8 @@ export default function Home() {
   return (
     <div className="bg-black h-full w-screen overflow-hidden">
       <HorizontalProgressBar />
-      <div id='hero' ref={heroRef}><HearAndAbout /></div>
-      <div id="services" ><Services /></div>
+      <div  ref={heroRef}><HearAndAbout /></div>
+      <div id="services"><Services /></div>
       <div id="support" ref={supportRef}><Support /></div>
       <div id="community" ref={communityRef}><Community /></div>
     </div>
