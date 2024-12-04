@@ -203,7 +203,7 @@ const HearAndAbout = () => {
             </div>
 
             <div
-                className='absolute my-element -mt-[33rem] right-[3rem]'
+                className='absolute my-element -mt-[33rem] right-[3rem] z-10'
                 ref={carImageRef}
             >
                 <Image
@@ -236,7 +236,7 @@ const HearAndAbout = () => {
                                 alt='wheelImage'
                                 width={150}
                                 height={150}
-                                className='mr-[20rem] -mt-[15rem]'
+                                className='mr-[20rem] -mt-[15rem] '
                             />
                         </div>
 

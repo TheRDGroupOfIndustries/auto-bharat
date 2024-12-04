@@ -68,7 +68,7 @@
 import { useEffect, useState } from 'react';
 import { gsap } from 'gsap';
 
-const sections = ['Hero', 'about', 'shop', 'support', 'community'];
+const sections = ['Hero', 'about', 'services', 'support', 'community'];
 
 const HorizontalProgressBar = () => {
     const [activeSection, setActiveSection] = useState(0);
